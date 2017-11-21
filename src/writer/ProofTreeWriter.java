@@ -19,6 +19,7 @@ public class ProofTreeWriter {
 	private static String currentFileName ="";
 	private static boolean folderCreated = true;
 	
+	//instantiates each output result file
 	public static String writeInitial(String inputFilename) {
 		
 		//detect change of inputfile in order to generate the correct filename for the individual results txts
@@ -102,7 +103,7 @@ public class ProofTreeWriter {
 		return s;
 	}
 	
-	
+	//writes the proof tree in each output result file
     public static void writeProofTree(CNFClause KB, Literal a, CNFClause expression, String filename){
     	
         File f = null;
@@ -137,7 +138,7 @@ public class ProofTreeWriter {
     	writer.close();
     }
 
-    
+    //writes the negation process in each output file
 	public static void writeNegationProcess(CNFClause expression, CNFClause expressionNegated, CNFClause finalExpression, boolean oneClause, String filename){
     	
 		
