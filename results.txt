@@ -1,0 +1,7 @@
+----------------------------- 17:42:47 --------------------------------
+-------------- Below are the results of each input file: --------------
+
+
+Results of input file input vol2.txt (17:42:52) are:
+
+1)  ||(B11 OR NOT_P12) AND (P12)|| is false
