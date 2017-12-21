@@ -1,4 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
 
 package algorithm;
 import java.io.BufferedReader;
