@@ -1,4 +1,3 @@
-//DIMITRIS MORAITIDIS, 3100240
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
